@@ -1,0 +1,508 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@700&display=swap");
+.Navbar {
+  display: flex;
+  align-items: center;
+  margin-left: 135px;
+  margin-top: 35px;
+}
+.Navbar button {
+  margin-left: 30px;
+  background-color: #e61c5d;
+  width: 122px;
+  height: 60px;
+  border: none;
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  color: white;
+  font-size: 20px;
+  border-radius: 45px;
+}
+.menu {
+  display: flex;
+  align-items: center;
+}
+.log_regis {
+  display: flex;
+  align-items: center;
+}
+.menu_p {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #808080;
+  margin-left: 40px;
+}
+.Home {
+  font-weight: 500;
+  color: #112b3c;
+  font-family: "Barlow", sans-serif;
+  font-size: 20px;
+  margin-left: 333px;
+}
+.login {
+  margin-left: 146px;
+  font-family: "Barlow", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #808080;
+}
+.Hero {
+  margin-top: 84px;
+  margin-left: 135px;
+  display: flex;
+  align-items: center;
+}
+.Search {
+  margin-left: none;
+  width: 469px;
+  height: 80px;
+}
+.hero_content {
+  width: 570px;
+  height: 432px;
+}
+.hero_content_text1 {
+  font-size: 64px;
+  font-family: "Barlow", sans-serif;
+  color: #112b3c;
+  font-weight: 700;
+}
+.hero_content_text2 {
+  font-size: 24px;
+  font-family: "Barlow", sans-serif;
+  color: #808080;
+  font-weight: 400;
+  margin-top: 32px;
+  width: 469px;
+}
+.Images {
+  width: 445px;
+  height: 579px;
+  margin-left: 130px;
+}
+.About_us {
+  margin-top: 120px;
+  margin-left: 135px;
+  display: flex;
+  align-items: center;
+}
+.About_us_content {
+  width: 472px;
+  height: 369px;
+  margin-left: 135px;
+}
+.About_us_content_text1 {
+  font-family: "Barlow", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #e61c5d;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  margin-bottom: 0px;
+}
+.About_us_content_text2 {
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  color: #112b3c;
+  margin-bottom: 0px;
+  margin-top: 4px;
+}
+.About_us_content_text3 {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #808080;
+  margin-top: 24px;
+  width: 442px;
+  margin-bottom: 0px;
+}
+.Insight {
+  display: flex;
+  align-items: center;
+  margin-top: 24px;
+}
+.Insight_items {
+  height: 86px;
+  width: 100px;
+  margin-right: 24px;
+}
+.Insight_items_1 {
+  font-family: "Barlow", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  color: #e61c5d;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.Insight_items_2 {
+  font-family: "Barlow", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #808080;
+  margin-top: 0px;
+}
+.Tour_packages_title {
+  display: flex;
+  align-items: center;
+  margin-left: 135px;
+}
+.Tour_packages_title img {
+  margin-left: 495px;
+}
+.Tour_packages_title_text {
+  width: 591px;
+  height: 139px;
+  margin-top: 121px;
+}
+.Tour_packages_title_text_1 {
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #e61c5d;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+  letter-spacing: 0.2em;
+}
+.Tour_packages_title_text_2 {
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  color: #112b3c;
+  margin-top: 0px;
+}
+.Tour_packages_Slides {
+  margin-left: 135px;
+  display: flex;
+  align-items: center;
+  margin-top: 80px;
+}
+.Tour_packages_Slides_Element {
+  margin-right: 30px;
+  width: 370px;
+  height: 500px;
+}
+.Tour_packages_Slides_Element_Content {
+  margin-left: 24px;
+  padding-right: 26px;
+}
+.price_and_days {
+  display: flex;
+  align-items: center;
+}
+.slides_description {
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #112b3c;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+.city {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #112b3c;
+  margin-bottom: 0px;
+  margin-top: 8px;
+}
+.price {
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #e61c5d;
+  margin-top: 0px;
+}
+.days {
+  font-family: "Barlow", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  color: #808080;
+  margin-left: auto;
+  margin-top: 0px;
+}
+.price_and_days {
+  margin-top: 8px;
+}
+.star {
+  margin-bottom: 0px;
+  margin-top: 8px;
+}
+.Testimonial {
+  margin-left: 135px;
+  margin-top: 120px;
+  width: 1170px;
+}
+.Title {
+  display: block;
+  text-align: center;
+  width: 591px;
+  margin-left: 430px;
+}
+.Title_text1 {
+  font-family: "Barlow";
+  font-size: 16px;
+  font-weight: 700;
+  color: #e61c5d;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  margin-bottom: 0px;
+}
+.Title_text2 {
+  margin-top: 4px;
+  font-family: "Barlow";
+  font-size: 48px;
+  font-weight: 700;
+  color: #112b3c;
+}
+.Slide {
+  margin-top: 80px;
+  margin-left: 135px;
+  width: 1170px;
+  height: 350px;
+  display: flex;
+  align-items: center;
+}
+.Card {
+  width: 302px;
+  margin-right: 32px;
+  display: grid;
+  text-align: center;
+}
+.arrow_left {
+  margin-right: 52px;
+}
+.arrow_right {
+  margin-left: 20px;
+}
+.card_div {
+  margin-top: 12px;
+}
+.photo {
+  margin-left: 113px;
+}
+.cirle {
+  margin-left: 238px;
+  margin-top: -20px;
+  margin-bottom: 26px;
+}
+.name {
+  font-family: "Barlow";
+  font-size: 18px;
+  font-weight: 700;
+  color: #112b3c;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.job {
+  font-family: "Barlow";
+  font-size: 14px;
+  font-weight: 400;
+  color: #112b3c;
+  margin-bottom: 4px;
+  margin-top: 4px;
+}
+.slide_text {
+  margin-top: 12px;
+  font-family: "Barlow";
+  font-size: 14px;
+  font-weight: 400;
+  color: #112b3c;
+  width: 224px;
+  margin-left: 41px;
+}
+.All_tours {
+  margin-top: 120px;
+  margin-left: 135px;
+  width: 1170px;
+}
+.All_Content {
+  margin-top: 0px;
+  width: 676px;
+  height: 262px;
+  margin-left: 382px;
+}
+.All_Content_text1 {
+  text-align: center;
+  font-family: "Barlow";
+  font-weight: 700;
+  font-size: 48px;
+  color: #112b3c;
+  margin-bottom: 0px;
+}
+.All_Content_text2 {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #808080;
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 32px;
+}
+.All_Content_button {
+  align-items: center;
+  align-items: center;
+  padding: 18px 24px;
+  width: 156px;
+  height: 60px;
+  background: #e61c5d;
+  border: 0px;
+  border-radius: 45px;
+  color: #ffffff;
+  font-family: "Barlow";
+  font-weight: 500;
+  font-size: 20px;
+  margin-left: 282px;
+  margin-top: 32px;
+}
+.All_cards {
+  margin-top: -32px;
+  display: flex;
+  width: 1170px;
+  height: 330px;
+}
+.card_div_big {
+  width: 128px;
+  height: 58px;
+  margin-left: 10px;
+  margin-top: 12.58px;
+}
+.city_big {
+  font-family: "Barlow";
+  font-weight: 700;
+  font-size: 18px;
+  color: #112b3c;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.cards_price_and_days_big {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+}
+.price_big {
+  font-family: "Barlow";
+  font-weight: 700;
+  font-size: 20px;
+  color: #e61c5d;
+  margin-top: 0px;
+}
+.days_big {
+  font-family: "Barlow";
+  font-weight: 500;
+  font-size: 14px;
+  color: #808080;
+  margin-left: 13px;
+  margin-top: 0px;
+}
+.card1 {
+  width: 254px;
+  height: 290px;
+}
+.card2 {
+  width: 190px;
+  height: 217px;
+  margin-top: 113px;
+  margin-left: 94px;
+}
+.card_div_small {
+  width: 101px;
+  height: 46px;
+  margin-top: 11.53px;
+  margin-left: 7px;
+}
+.city_small {
+  font-family: "Barlow";
+  font-weight: 700;
+  font-size: 14px;
+  color: #112b3c;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.cards_price_and_days_small {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+}
+.price_small {
+  font-family: "Barlow";
+  font-weight: 700;
+  font-size: 16px;
+  color: #e61c5d;
+  margin-top: 0px;
+}
+.days_small {
+  font-family: "Barlow";
+  font-weight: 500;
+  font-size: 10px;
+  color: #808080;
+  margin-top: 0px;
+  margin-left: 15px;
+}
+.card3 {
+  margin-left: 94px;
+  margin-top: 113px;
+}
+.card4 {
+  margin-left: 94px;
+}
+.Footer {
+  display: flex;
+  align-items: center;
+  margin-top: 239px;
+  margin-left: 135px;
+  margin-bottom: 119px;
+  width: 1170px;
+  height: 162px;
+}
+.Footer_Logo {
+  height: 162px;
+  width: 200px;
+}
+.Footer_text {
+  margin-top: 18px;
+  margin-bottom: 18px;
+  color: #112b3c;
+  font-family: "Barlow";
+  font-weight: 400;
+  font-size: 14px;
+}
+.Footer_title {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: "Barlow";
+  font-weight: 700;
+  font-size: 18px;
+  color: #112b3c;
+}
+.Footer_About {
+  height: 162px;
+  margin-left: 100px;
+  width: 54px;
+}
+.Footer_Company {
+  height: 162px;
+  margin-left: 146px;
+  width: 92px;
+}
+.Footer_Support {
+  margin-left: 108px;
+  height: 162px;
+  width: 92px;
+}
+.Footer_Newslette {
+  height: 162px;
+  margin-left: 108px;
+}
+.Footer_text_div {
+  width: 207px;
+}
+.Footer_search {
+  display: flex;
+  align-items: center;
+}
+.Footer_search input {
+  border: none;
+}
